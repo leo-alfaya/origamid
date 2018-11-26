@@ -108,7 +108,35 @@ body {
 }
 
 .sobre-item {
-    width: 460px;
+    max-width: 460px;
     float: left;
     margin: 0 10px
+}
+
+.sobre-item img {
+    display: block;
+    width: 100%;    
+}
+
+.sobre-item h3 {
+    font-size: 2.25rem;
+    background: #252525;
+    line-height: 1em;
+    width: 220px;
+    padding: 5px 0 10px 0;
+    color: #fff;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    top: -25px;
+    position: relative;
+}
+
+.sobre > p {
+    font-size: 1.125rem;
+    line-height: 1.4rem;
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 460px;
 }
